@@ -1,0 +1,44 @@
+.container{
+    border:5px solid black;
+    margin-top:20px;
+}
+.row{
+    border:3px solid green;
+}
+body{
+    background-color: gray;
+}
+#header{
+    background-color: rgba(238, 145, 24, 0.575);
+    padding:10px;
+
+}
+#menubar{
+    background-color: rgb(32, 190, 137);
+    padding:5px;
+} 
+#menubar ul{
+    list-style:none;
+}
+#menubar ul li{
+    display:inline-block;
+}
+#menubar ul li :hover{
+    background-color: rgb(68, 6, 22);
+    text-decoration:none;
+}
+    
+
+
+#content{
+    background-color: #fff;
+
+}
+#sidebar{
+    background-color: rgb(104, 230, 21);
+
+}
+#footer{
+    background-color: rgb(223, 226, 50);
+
+}
